@@ -1,0 +1,21 @@
+# Ignore encryption keys and sensitive files
+protected_key.key
+key.key
+
+# Ignore logs
+logs/
+localhost_received_logs.txt
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment (optional, if you use one)
+venv/
+env/
+
+# IDE config folders (optional)
+.vscode/
+.idea/
